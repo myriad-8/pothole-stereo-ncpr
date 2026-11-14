@@ -1,0 +1,10 @@
+checkpoints/*
+!checkpoints/.gitkeep
+*.pth
+*.pt
+*.safetensors
+*.zip
+__pycache__/
+.ipynb_checkpoints/
+RSRD/
+pothole600/
