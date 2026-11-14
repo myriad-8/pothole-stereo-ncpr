@@ -1,0 +1,5 @@
+,default_iou,default_iou,default_dice,default_dice,default_precision,default_precision,default_recall,default_recall,tuned_iou,tuned_iou,tuned_dice,tuned_dice,tuned_precision,tuned_precision,tuned_recall,tuned_recall
+,mean,std,mean,std,mean,std,mean,std,mean,std,mean,std,mean,std,mean,std
+model,,,,,,,,,,,,,,,,
+baseline,0.6158,0.011,0.7622,0.0085,0.7641,0.0096,0.7605,0.0193,0.615,0.0124,0.7615,0.0095,0.7736,0.021,0.7512,0.0351
+proposed,0.624,0.0026,0.7685,0.002,0.7962,0.0291,0.744,0.0298,0.6249,0.003,0.7692,0.0023,0.7967,0.0069,0.7436,0.0092

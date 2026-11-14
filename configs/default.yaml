@@ -1,0 +1,13 @@
+seeds: [42, 43, 44]
+models_to_run: [baseline, proposed]     # also available: ncpr_v1, proposed_nocontrast (ablation)
+epochs: 20
+lr: 5.0e-5                              # proposed model: new NCPR parameters use 10x this lr
+weight_decay: 0.01
+batch_size: 8
+image_size: 512
+pretrained: nvidia/segformer-b0-finetuned-ade-512-512
+loss: ce                                # ce | ce_weighted | ce_dice
+class_weights: [1.0, 5.0]               # only for ce_weighted
+void_value: null                        # ignore label in masks, if any
+stereo_model: RAFT-Stereo (princeton-vl, raftstereo-middlebury.pth), SGBM fallback
+severity_thresholds_m: {low_below: 0.02, medium_below: 0.05}   # ASSUMED, not validated

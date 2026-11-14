@@ -1,0 +1,4 @@
+split,n_images,missing_masks,empty_masks
+training,240,0,0
+validation,180,0,0
+testing,180,0,0

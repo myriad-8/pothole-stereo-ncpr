@@ -1,0 +1,31 @@
+{
+  "python": "3.13.16 (main, Oct  1 2026, 15:40:24) [GCC 13.3.0]",
+  "torch": "2.11.0+cu130",
+  "torchvision": "0.26.0+cu130",
+  "transformers": "5.20.2",
+  "segformer_weights": "nvidia/segformer-b0-finetuned-ade-512-512",
+  "stereo_model": "RAFT-Stereo (princeton-vl, raftstereo-middlebury.pth), SGBM fallback",
+  "cfg": {
+    "seeds": [
+      42,
+      43,
+      44
+    ],
+    "epochs": 20,
+    "lr": 5e-05,
+    "weight_decay": 0.01,
+    "batch_size": 8,
+    "image_size": 512,
+    "pretrained": "nvidia/segformer-b0-finetuned-ade-512-512",
+    "loss": "ce",
+    "class_weights": [
+      1.0,
+      5.0
+    ],
+    "void_value": null,
+    "models_to_run": [
+      "baseline",
+      "proposed"
+    ]
+  }
+}
