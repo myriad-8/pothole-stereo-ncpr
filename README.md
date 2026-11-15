@@ -125,7 +125,7 @@ python demo/app.py --ckpt checkpoints/proposed_ce_s42.pth --model proposed
 
 ## Model checkpoints
 
-Checkpoints are not stored in git. Download `proposed_ce_s42.pth` and `baseline_ce_s42.pth` from: **[<CHECKPOINT_LINK>](https://huggingface.co/Sahithiii437/pothole-segformer-ncpr)** and place them in `checkpoints/`. Pretrained sources: SegFormer-B0 `nvidia/segformer-b0-finetuned-ade-512-512` (Hugging Face); RAFT-Stereo https://github.com/princeton-vl/RAFT-Stereo (`raftstereo-middlebury.pth`). Check the terms of each pretrained model before redistributing.
+Checkpoints are not stored in git. Download `proposed_ce_s42.pth` and `baseline_ce_s42.pth` from: **[Hugging Face model page](https://huggingface.co/Sahithiii437/pothole-segformer-ncpr)** and place them in `checkpoints/`. Pretrained sources: SegFormer-B0 `nvidia/segformer-b0-finetuned-ade-512-512` (Hugging Face); RAFT-Stereo https://github.com/princeton-vl/RAFT-Stereo (`raftstereo-middlebury.pth`). Check the terms of each pretrained model before redistributing.
 
 ## Known limitations
 
