@@ -1,5 +1,5 @@
 # Stereo Vision for Pothole Detection and Severity Estimation
-**Live demo:** [Run on Kaggle](https://www.kaggle.com/code/sahithiiid/stereo-pothole-demo) — open the notebook, turn Internet on, click Run All.
+**Live demo:** [Run on Kaggle](https://www.kaggle.com/code/sahithiiid/stereo-pothole-demo) — open the notebook. Click "Copy & Edit", turn Internet On in Settings, then run all cells. A Gradio link will appear at the end..
 
 A reproducible prototype that (1) segments potholes from road images, (2) estimates road-surface depth from calibrated stereo, (3) fits a local road plane, and (4) reports pothole depth, footprint area, volume and a rule-based severity **only when the geometry is reliable**. Unreliable cases are reported as `uncertain` / `unavailable` and never receive a severity label.
 
